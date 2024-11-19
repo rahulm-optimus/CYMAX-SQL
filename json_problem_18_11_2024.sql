@@ -39,7 +39,7 @@ select * from tblProducts
 
 -- Create the stored procedure
 ALTER PROCEDURE spUpdateJsonData
-    @jsonVar NVARCHAR(MAX) -- Corrected typo here
+    @jsonVar NVARCHAR(MAX) 
 AS
 BEGIN
     -- Check if the JSON input is valid
